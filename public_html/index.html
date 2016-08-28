@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/doughnuts-theme.css" />
+        <title>I Love Doughnuts</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col col-2">
+                        <a href="index.html" ><img class="responsive-img" src="./assets/img/sweet-apple-logo.png" alt="logo" height="150" /></a>
+                    </div>
+                    <div>&nbsp;</div>
+                    <div>&nbsp;</div>
+                    <div>&nbsp;</div>
+                    <div>&nbsp;</div>
+                    <div class="col col-8 nav-menu">
+                        <ul class="push-right">
+                            <li id="menu-about">
+                                <a href="?page=about">About</a>
+                            </li>
+                            <li id="menu-doughnuts">
+                                <a href="?page=doughnuts">Doughnuts</a>
+                            </li>
+                            <li id="menu-gift">
+                                <a href="?page=gift">Gift</a>
+                            </li>
+                            <li id="menu-shop">
+                                <a href="?page=shop">Shop</a>
+                            </li>
+                            <li id="menu-contact">
+                                <a href="?page=contact">Contact</a>
+                            </li>
+                            <li id="menu-faq">
+                                <a href="?page=faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-3">
+                    <div class="container">
+                        <div class="panel">
+                            <div class="panel-title">
+                                Sign In
+                            </div>
+                            <div class="panel-content">
+                                <form class="form" action="#">
+                                    <div class="row">
+                                        <label class="col col-3" for="email">E-mail</label>
+                                        <input class="col col-4" id="email" type="text" />
+                                    </div>
+                                    <div class="row">
+                                        <label class="col col-3" for="password">Password</label>
+                                        <input class="col col-4" id="password" type="password" />
+                                    </div>
+                                    <div class="row">
+                                        <a href="?page=forgot_password" >Forgot your password?</a>
+                                    </div>
+                                    <div class="row">
+                                        <input class="btn btn-primary" type="submit"  onclick="loadPage(event, 'login.html')" value="Sign in" />
+                                    </div>
+                                    <div class="row">
+                                        <a href="?page=signup">Sign up</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="panel">
+                            <div class="panel-title">
+                                Doughnuts
+                            </div>
+                            <div class="panel-content">
+                                <div class="links links-vertical">
+                                    <ul>
+                                        <li>
+                                            <a href="?page=plain_chocolate" >Plain Chocolate</a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=cream" >Creme Brulee</a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=sprinkles" >Chocolate Iced with Sprinkles</a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=cinnamon_sugar" >Cinnamon Sugar</a>
+                                        </li>
+                                        <li>
+                                            <a href="?page=glazed_cake_doughnut_holes" >Glazed Cake Doughnut Holes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="panel">
+                            <div class="panel-title">
+                                Video
+                            </div>
+                            <div class="panel-content">
+                                <iframe class="responsive-img" width="300" height="300" src="https://www.youtube.com/embed/-HhQITT_EZo" frameborder="0" ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="main-container" class="col col-7">
+                    <div class="spinner">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="row">
+                    <div class="col col-2 text-centered">
+                        <a href="index.html"><img src="./assets/img/sweet-apple-logo.png" alt="logo" height="100" /></a>
+                        <div>I love Doughnuts</div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="row">
+                            <div class="links links-horizontal text-centered">
+                                <ul>
+                                    <li>
+                                        <a href="?page=about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="?page=doughnuts">Doughnuts</a>
+                                    </li>
+                                    <li>
+                                        <a href="?page=gift">Gift</a>
+                                    </li>
+                                    <li>
+                                        <a href="?page=shop">Shop</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-2">
+                        <div class="links links-horizontal">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com"><img src="./assets/img/ic_facebook.png" height="45" alt="facebook" /></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com"><img src="./assets/img/ic_instagram.png" alt="instagram" height="45" /></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.twitter.com"><img src="./assets/img/ic_twitter.png" alt="instagram" height="45" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-centered">
+                    Copyright (c) 2016 by Jovel Barrera - All rights reserved<br />
+                    Contenido retomado de diversas funetes
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="./assets/js/doughnuts-theme.js" type="text/javascript"></script>
+        <script src="./assets/js/carousel.js" type="text/javascript"></script>
+        <script src="./assets/js/base.js" type="text/javascript"></script>
+        <script type="text/javascript">
+                                            $(document).ready(function () {
+                                                var page = getUrlParameter('page');
+                                                if (page == "home" || page == undefined) {
+                                                    loadPage('home.html');
+                                                } else {
+                                                    loadPage(page + '.html');
+                                                    $('#menu-' + page).addClass('active');
+                                                }
+                                            });
+        </script>
+    </body>
+</html>

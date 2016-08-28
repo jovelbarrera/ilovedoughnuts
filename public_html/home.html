@@ -1,0 +1,100 @@
+<div class="row">
+    <div class="carousel">
+        <div>
+            <div class="carousel-slide">
+                <img class="responsive-img" src="./assets/img/carousel/doughnuts-banner-1.jpg" alt="Banner" />
+                <div class="carousel-caption">
+                    <strong>The best donuts in the wold!</strong>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img class="responsive-img" src="./assets/img/carousel/doughnuts-banner-2.jpg" alt="Banner" />
+                <div class="carousel-caption">
+                    <strong>Special donuts for special moments...</strong>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img class="responsive-img" src="./assets/img/carousel/doughnuts-banner-3.jpg" alt="Banner" />
+                <div class="carousel-caption">
+                    <strong>In Donuts we trust!</strong>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img class="responsive-img" src="./assets/img/carousel/doughnuts-banner-4.jpg" alt="Banner" />
+                <div class="carousel-caption">
+                    <strong>Donuts and justice for all!</strong>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control" onclick="plusDivs(-1)">&#10094; Prev</a>
+        <a class="carousel-control push-right" onclick="plusDivs(1)">Next &#10095;</a>
+    </div>
+</div>
+
+<div class="row">
+    <ul class="tab">
+        <li><a href="#" class="tablinks active" onclick="openTab(event, 'New')">New</a></li>
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'Ranking')">Ranking</a></li>
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'Recommend')">Recommend</a></li>
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'LowCalorie')">Low Calorie</a></li>
+    </ul>
+
+    <div id="New" class="tabcontent" style="display: block;">
+        <div class="zoom-image">
+            <img src="./assets/img/cream.png" alt="cream" height="100"  />
+        </div>
+        <a href="?page=cinnamon_sugar" class="text-centered">Creme Brulee Doughnut.</a>
+    </div>
+
+    <div id="Ranking" class="tabcontent">        
+        <div class="zoom-image">
+            <img height='50' src="./assets/img/glazed_cake_doughnut_holes.png" alt="glazed_cake_doughnut_holes"  />
+        </div>
+        <a href="?page=glazed_cake_doughnut_holes" class="text-centered">Glazed Cake Doughnut Holes.</a>
+    </div>
+
+    <div id="Recommend" class="tabcontent">
+        <div class="zoom-image">
+            <img height='50' src="./assets/img/cinnamon-sugar.png" alt="cream" />
+        </div>
+        <a href="?page=cinnamon_sugar" class="text-centered">Delicious Cinnamon Sugar donut.</a>
+    </div>
+
+    <div id="LowCalorie" class="tabcontent">
+        <div class="zoom-image">
+            <img height='50' src="./assets/img/sprinkles.png" alt="sprinkles" />
+        </div>
+        <a href="?page=sprinkles" class="text-centered">Chocolate Iced with Sprinkles.</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="panel">
+        <div class="panel-title">
+            Recents
+        </div>
+        <div class="panel-content">
+            <div class="links links-vertical">
+                <ul>
+                    <li>
+                        <a href="?page=information" >Important news</a>
+                    </li>
+                    <li>
+                        <a href="?page=information" >Opening our new local</a>
+                    </li>
+                    <li>
+                        <a href="?page=information" >Donuts Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    showDivs(1);
+    //plusDivs(-1);
+    setInterval(function () {
+        plusDivs(1);
+    }, 5000);
+</script>
