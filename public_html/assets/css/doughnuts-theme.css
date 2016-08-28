@@ -126,11 +126,17 @@ body *{
 .form input[type=text],
 .form input[type=password]{
     border: 0px solid #000000;
-    height: 25px;
+    height: 15px;
+    padding: 5px;
+    color: #df691a;
+    font-weight: bold;
 }
 .form textarea{
     border: 0px solid #000000;
     height: 100px;
+    padding: 5px;
+    color: #df691a;
+    font-weight: bold;
 }
 
 .footer{
@@ -303,6 +309,9 @@ ul.tab li a:focus, .active {
 }
 .alert-danger{
     background-color: #d9534f;
+}
+.alert-success{
+    background-color: #5cb85c;
 }
 
 .zoom-over {
